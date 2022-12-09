@@ -6,7 +6,7 @@ export default {
 <script setup lang="ts"></script>
 
 <template>
-  <h1 class="text-bold text-secondary">Le champ du fort</h1>
+  <h1 class="text-bold text-secondary">{{ $t("champion") }}</h1>
   <img src="@/adapter/primary/assets/img/unnamed.jpg" alt="logo" id="logo" />
 </template>
 
